@@ -1,0 +1,51 @@
+﻿Build started 12/15/2015 11:52:39 AM.
+     1>Project "H:\OpenGL Rasteriser\OpenGLGraphics\OpenGLGraphics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Mesh.cpp Renderer.cpp RenderObject.cpp Shader.cpp
+         main.cpp
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C2143: syntax error : missing ';' before '*'
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(35): warning C4183: 'Gettimer': missing return type; assumed to be a member function returning 'int'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C2146: syntax error : missing ';' before identifier 'timePeriodr'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(34): error C2065: 'timePeriodr' : undeclared identifier
+     1>main.cpp(34): error C2039: 'GetTimer' : is not a member of 'Window'
+                 h:\opengl rasteriser\nclgl\Window.h(22) : see declaration of 'Window'
+     1>main.cpp(34): error C2227: left of '->GetTimedMS' must point to class/struct/union/generic type
+         Mesh.cpp
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C2143: syntax error : missing ';' before '*'
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(35): warning C4183: 'Gettimer': missing return type; assumed to be a member function returning 'int'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C2146: syntax error : missing ';' before identifier 'timePeriodr'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(34): error C2065: 'timePeriodr' : undeclared identifier
+         Renderer.cpp
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C2143: syntax error : missing ';' before '*'
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(35): warning C4183: 'Gettimer': missing return type; assumed to be a member function returning 'int'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C2146: syntax error : missing ';' before identifier 'timePeriodr'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(34): error C2065: 'timePeriodr' : undeclared identifier
+     1>Renderer.cpp(47): error C2065: 'timePeriodPeriod' : undeclared identifier
+     1>Renderer.cpp(65): warning C4305: '-=' : truncation from 'double' to 'float'
+         RenderObject.cpp
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C2143: syntax error : missing ';' before '*'
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(35): warning C4183: 'Gettimer': missing return type; assumed to be a member function returning 'int'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C2146: syntax error : missing ';' before identifier 'timePeriodr'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(34): error C2065: 'timePeriodr' : undeclared identifier
+         Shader.cpp
+     1>H:\OpenGL Rasteriser\GLEW\include\GL/wglew.h(79): warning C4005: 'GLEWAPI' : macro redefinition
+                 H:\OpenGL Rasteriser\GLEW\include\GL/glew.h(205) : see previous definition of 'GLEWAPI'
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C2143: syntax error : missing ';' before '*'
+     1>h:\opengl rasteriser\nclgl\Window.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(35): warning C4183: 'Gettimer': missing return type; assumed to be a member function returning 'int'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C2146: syntax error : missing ';' before identifier 'timePeriodr'
+     1>h:\opengl rasteriser\nclgl\Window.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\opengl rasteriser\nclgl\Window.h(34): error C2065: 'timePeriodr' : undeclared identifier
+     1>Done Building Project "H:\OpenGL Rasteriser\OpenGLGraphics\OpenGLGraphics.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.29
